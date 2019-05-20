@@ -17,88 +17,192 @@ A rendszerelemek többféle funkciót is betölthetnek a rendszeren belül, így
   o tanulási képességgel, illetve
   o tanulási képesség nélkül.
 
-              Ellenőrző kérdések
-              1. Határozza meg a rendszer fogalmát!
-                A rendszer egymással kapcsolatban álló, közös tulajdonságokkal bíró elemek együttese.
+Ellenőrző kérdések
+1. Határozza meg a rendszer fogalmát!
+  A rendszer egymással kapcsolatban álló, közös tulajdonságokkal bíró elemek együttese.
 
-              2. Melyek a rendszerek vizsgálati módszerei?
-              A rendszer határa meghatározza magát a rendszert, és meghatározza a rendszer környezetét.
-              A vizsgálat tárgyát képező rendszer meghatározása:
-                • A környezetből kiemeljük a bennünket érdeklő részeket.
-                • A rendszerhez, illetve vannak a rendszerkörnyezethez tartozás eldöntésében az alábbi
-                  kérdések megválaszolása segíthet:
-                  o Fontos-e az adott objektum a vizsgált rendszer céljainak eléréséhez?
-                  o Tudja-e a rendszer elemzője jelentősen befolyásolni az adott objektum
-                  paramétereit?
-                  o Ha a válasz mindkét kérdésre igen, akkor az adott objektum a rendszer határain
-                  belül található, máskülönben a rendszeren kívül, annak környezetében. A fentiek
-                  alapján a környezetet is meg tudjuk határozni.
-                • Végül meghúzzuk – mesterségesen – a rendszer határait
-                
-              3. Mi a különbség a rendszerelmélet és a rendszerszemlélet között?
-              rendszerelmélet:
-                világ általános összefüggéseit vizsgálja, és
-                a matematika nyelvén írja le a rendszerek szerkezetét és a környezettel kapcsolat
-                  •Feketedoboz-módszer és a
-                  •Modell-módszer
-              rendszerszemlélet:
-                A rendszerelmélet elveit és módszereit a vizsgálódás középpontjába állító gondolkodásmód
-                A rendszerszemléletű vizsgálat jellemzői a:
-                  • Bonyolult rendszerek absztrakciója.
-                  • A problémák "egészként" kezelése.
-                  • Lebontás átlátható részekre.
-              
-              4. Mi a szerepe a rendszer-interfésznek?
-              • az inputok – amelyek a rendszer működését alapvetően meghatározzák. Ezek lehetnek
-                o a rendszerrel "normális" kapcsolatban levő rendszerektől érkező, a működéshez
-                szükséges jelek,
-                o a rendszerre ható, annak működését befolyásoló szabályozók, illetve
-                o olyan nem kívánt jelek, amelyek a rendszer működésében zavart okoz(hat)nak.
-              • az outputok – amely a rendszer "válasza" a környezet felé. 
-              
-              5. Mit jelent a rendszer komplexitása, milyen összefüggéssel határozható meg?
-              Több elem több kapcsolata bonyolultabbá, komplexebbé teszi a rendszert.
-              (egy elemnek legalább 1 kapcsolatának kell lennie egy másik elemmel)
-              
-              6. Mit jelent a rendszer leírása?
-                A rendszer határait  tetszőlegesen választhatjuk meg. A rendszeren belül az elemek
-                kommunikálnak egymással, a környezettel – befoglaló rendszerrel, más rendszerekkel – pedig
-                a rendszer határain – input/output – keresztül kapcsolódnak.
+2. Melyek a rendszerek vizsgálati módszerei?
+A rendszer határa meghatározza magát a rendszert, és meghatározza a rendszer környezetét.
+A vizsgálat tárgyát képező rendszer meghatározása:
+  • A környezetből kiemeljük a bennünket érdeklő részeket.
+  • A rendszerhez, illetve vannak a rendszerkörnyezethez tartozás eldöntésében az alábbi
+    kérdések megválaszolása segíthet:
+    o Fontos-e az adott objektum a vizsgált rendszer céljainak eléréséhez?
+    o Tudja-e a rendszer elemzője jelentősen befolyásolni az adott objektum
+    paramétereit?
+    o Ha a válasz mindkét kérdésre igen, akkor az adott objektum a rendszer határain
+    belül található, máskülönben a rendszeren kívül, annak környezetében. A fentiek
+    alapján a környezetet is meg tudjuk határozni.
+  • Végül meghúzzuk – mesterségesen – a rendszer határait
 
-                • A rendszer tehát alkotóelemek szervezett együttese, amelyek egymással dinamikus
-                kölcsönhatásban állnak.
-                • Az elemekre külön-külön nem jellemző, új tulajdonságokat és ehhez tartozó struktúrákat
-                hoznak létre.
-                A tulajdonságok fűzik össze az alkotóelemeket rendszerré.
-                • A rendszer szempontjából az elemek általános tulajdonságai a fontosak.
-                • Közös tulajdonságok miatt mellérendelő viszony az elemek között.
-                • Az egyedi tulajdonságok alapján viszont hierarchikus.
-                • Az elemek köré húzott határvonal választja el a rendszert a környezettől.
+3. Mi a különbség a rendszerelmélet és a rendszerszemlélet között?
+rendszerelmélet:
+  világ általános összefüggéseit vizsgálja, és
+  a matematika nyelvén írja le a rendszerek szerkezetét és a környezettel kapcsolat
+    •Feketedoboz-módszer és a
+    •Modell-módszer
+rendszerszemlélet:
+  A rendszerelmélet elveit és módszereit a vizsgálódás középpontjába állító gondolkodásmód
+  A rendszerszemléletű vizsgálat jellemzői a:
+    • Bonyolult rendszerek absztrakciója.
+    • A problémák "egészként" kezelése.
+    • Lebontás átlátható részekre.
 
-              7. Melyek a gazdasági szervezet jellemzői?
-              A szervezet tehát egy olyan speciális rendszer, amely
-              • életjelenséget mutat,
-              • aktív kapcsolata van a környezetével,
-              • önmaga fenntartására törekszik,
-              • konkrét cél megvalósítása érdekében jött létre,
-              • rendelkezik e célok végrehajtásához szükséges funkciókkal.
-              Beszélünk még az un. gazdasági szervezetről, amely a szervezethez képest annyival "több",
-              hogy:
-              • emberi társulások,
-              • kifejezetten, meghatározott gazdasági célok elérése érdekében jön létre,
-              • kialakulásukat, működésüket és megszűnésüket társadalmi szükségletek határozzák meg,
-              • anyagi-, és szellemi erőforrások koordinálásával jönnek létre és működnek,
-              • belső vezérlőfunkciójuk a vezetés.
-              
-              8. Melyek a rendszerszemléletű vizsgálat jellemzői?
-              A rendszerszemléletű vizsgálat jellemzői a:
-              • Bonyolult rendszerek absztrakciója.
-              • A problémák "egészként" kezelése.
-              • Lebontás átlátható részekre.
-              
-              9. Milyen környezetben dolgozta ki Bertalanffy az elméletét?
-                az élő szervezet tanulmányozása során
-                alkalmazta és alkotta meg az elméletét 
-              10. Mit értünk a rendszer környezetén?
-                A rendszer környezetének a rendszeren kívül lévő összes dolgot tekintjük. A környezetben
-                levő dolgok tulajdonságai kihatnak a rendszerre
+4. Mi a szerepe a rendszer-interfésznek?
+• az inputok – amelyek a rendszer működését alapvetően meghatározzák. Ezek lehetnek
+  o a rendszerrel "normális" kapcsolatban levő rendszerektől érkező, a működéshez
+  szükséges jelek,
+  o a rendszerre ható, annak működését befolyásoló szabályozók, illetve
+  o olyan nem kívánt jelek, amelyek a rendszer működésében zavart okoz(hat)nak.
+• az outputok – amely a rendszer "válasza" a környezet felé. 
+
+5. Mit jelent a rendszer komplexitása, milyen összefüggéssel határozható meg?
+Több elem több kapcsolata bonyolultabbá, komplexebbé teszi a rendszert.
+(egy elemnek legalább 1 kapcsolatának kell lennie egy másik elemmel)
+
+6. Mit jelent a rendszer leírása?
+  A rendszer határait  tetszőlegesen választhatjuk meg. A rendszeren belül az elemek
+  kommunikálnak egymással, a környezettel – befoglaló rendszerrel, más rendszerekkel – pedig
+  a rendszer határain – input/output – keresztül kapcsolódnak.
+
+  • A rendszer tehát alkotóelemek szervezett együttese, amelyek egymással dinamikus
+  kölcsönhatásban állnak.
+  • Az elemekre külön-külön nem jellemző, új tulajdonságokat és ehhez tartozó struktúrákat
+  hoznak létre.
+  A tulajdonságok fűzik össze az alkotóelemeket rendszerré.
+  • A rendszer szempontjából az elemek általános tulajdonságai a fontosak.
+  • Közös tulajdonságok miatt mellérendelő viszony az elemek között.
+  • Az egyedi tulajdonságok alapján viszont hierarchikus.
+  • Az elemek köré húzott határvonal választja el a rendszert a környezettől.
+
+7. Melyek a gazdasági szervezet jellemzői?
+A szervezet tehát egy olyan speciális rendszer, amely
+• életjelenséget mutat,
+• aktív kapcsolata van a környezetével,
+• önmaga fenntartására törekszik,
+• konkrét cél megvalósítása érdekében jött létre,
+• rendelkezik e célok végrehajtásához szükséges funkciókkal.
+Beszélünk még az un. gazdasági szervezetről, amely a szervezethez képest annyival "több",
+hogy:
+• emberi társulások,
+• kifejezetten, meghatározott gazdasági célok elérése érdekében jön létre,
+• kialakulásukat, működésüket és megszűnésüket társadalmi szükségletek határozzák meg,
+• anyagi-, és szellemi erőforrások koordinálásával jönnek létre és működnek,
+• belső vezérlőfunkciójuk a vezetés.
+
+8. Melyek a rendszerszemléletű vizsgálat jellemzői?
+A rendszerszemléletű vizsgálat jellemzői a:
+• Bonyolult rendszerek absztrakciója.
+• A problémák "egészként" kezelése.
+• Lebontás átlátható részekre.
+
+9. Milyen környezetben dolgozta ki Bertalanffy az elméletét?
+  az élő szervezet tanulmányozása során
+  alkalmazta és alkotta meg az elméletét 
+10. Mit értünk a rendszer környezetén?
+  A rendszer környezetének a rendszeren kívül lévő összes dolgot tekintjük. A környezetben
+  levő dolgok tulajdonságai kihatnak a rendszerre
+
+2.
+    "Egy szervezetet az információs rendszerek, tehát az alkotóelemei közötti rendszeres
+információcsere tesz szervezetté.”
+Wiener, ~1940
+Ellenőrző kérdések
+1. Kik voltak az információelmélet kidolgozásának jelentősebb személyiségei?
+ Norbert Wiener, amerikai matematikusnak, az információelmélet
+egyi kimagasló kutatójának, a kibernetika "atyjának
+1837-ben Morse bemutatta az első távíró rendszert, majd
+1894-ben Popov, ill. Marconi – bár ezt máig sokan vitatják – egymástól függetlenül a vezeték
+nélküli távírót szabadalmaztatta. A műszaki alapokon működő távközlés létrejötte az, amely
+az információelmélet kialakulásában döntő jelentőségű volt
+
+2. Rajzolja fel a Shannon-Weaver féle kommunikációs modellt, ismertesse az elemeit!
+Adó-> hír -> jel csatorna -> hír -> vevő
+
+3. Mit jelent a "kódolás" fogalom, hogy osztályozzuk a kódrendszereket?
+A kódolás lényege, hogy egy jelkészlet – ABC – elemeihez – meghatározott szabályok szerint
+– egy másik jelkészlet – ABC' – elemeit rendeljük. A kód tehát nem más, mint egy jelkészlet
+segítségével rögzített hír. 
+• karakterkészlet alapján: bináris/ nem bináris
+• a kódszavak hosszúsága alapján: fix/ változó
+• alkalmazási cél alapján: aritmetikai, pozíció,hibajavító
+Kódrendszerek csoportosítása:
+• Az alkalmazott jel formája szerint
+o folytonos és
+o diszkrét.
+• Az alkalmazott jel típusa szerint:
+o numerikus – bármely számrendszer, pl. bináris, decimális,
+o alfabetikus – bármelyik nyelv ABC-je,
+
+4. Ismertesse az üzenetküldés kódolási folyamatát!
+A kódolás lényege, hogy egy jelkészlet – ABC – elemeihez – meghatározott szabályok szerint
+– egy másik jelkészlet – ABC' – elemeit rendeljük. A kód tehát nem más, mint egy jelkészlet
+segítségével rögzített hír.
+A kódok önmagukban nem használhatók. Ahhoz, hogy kódolni és a kódokat értelmezni –
+dekódolás – tudjuk, szükségünk van szabályokra. A jelkészlet és a hozzárendelési szabályok
+együttesen alkotják a kódrendszert.
+Az üzenetet / jelet az egyik fél encode-olja, az így kapott kód áthalad a csatornán, majd 
+a másik fél decode-olja.
+
+5. Mi a feltétele a kód zavarállóságának, milyen lehetőségeink vannak a hibák kezelésére?
+o hibajavító kódolás (Pl. Hamming kód)
+A tömörítés valójában nem önálló kódolási forma. A tömörítés célja
+• A csatornakódolás célja a zajvédelem. Ennek során az illesztő kód redundanciáját
+célszerűen növeljük. A redundancia egyrészt káros, mivel növeli az átviendő
+jelmennyiséget, ami idő- és költségtöbbletet jelent. Másrészt szükséges, mivel ez teszi
+lehetővé a csatornán fellépő zavarok miatt esetlegesen megsérült üzenet sérültségének
+észrevételét és – bizonyos feltételek mellett – az üzenet helyreállítását.
+
+6. Mi a különbség Hartley és Shannon feltevése között?
+Hartley felvetése: hogyan lehetne mérni a távközlési rendszerekben továbbított információt?
+Döntő felismerése volt, hogy az információról, ahhoz, hogy mérni lehessen, le kell hámozni
+mindent, ami szubjektív, s ami végeredményben egy üzenetet az ember számára értékessé
+teszi. Vagyis nem az üzenet tartalma a fontos az információ mértékének mérése
+szempontjából, pusztán annak a fizikai formáját kell vizsgálni.
+p(x) = 1/n  : ahol n konstans
+Shannon és az entrópia
+A Hartley-formula nem alkalmazható általánosan, mivel egy adott jelkészletben a jelek
+előfordulási valószínűsége nem feltétlenül azonos.
+Ezt ismerte fel Shannon, és ennek megfelelően korrigálta a Hartley-formulát. Shannon szerint
+minél váratlanabb egy esemény bekövetkezése, annál nagyobb az információtartalma. Ez azt
+jelenti, hogy nagyobb előfordulási valószínűséghez, kisebb információtartalom tartozik. (ld.
+½ alapú log függvény)
+A Shannon-formulában az információmérték nem a jelek számával, hanem az előfordulás
+valószínűségével arányos.
+
+7. A Shannon-formula segítségével ismertesse az entrópia fogalmát!
+Vegyük észre, hogy Hartley és Shannon képlet közötti különbséget csak a pi valószínűségek
+konstans, illetve változó volta okozza! Ha Shannon képletében az előfordulási valószínűséget
+konstansként kezeljük, akkor Hartley formuláját kapjuk.
+valószínűség számítás
+1/2 , 1/2 x^-1
+x = - 1 *log2 2
+
+8. Mi a tranz-információ, hogy számítjuk az információelméleti hatásfokot?
+A T(X,Y) az un. tranz-információ, ez valójában a csatornán átvitt információ mértéke.
+A leadott és vett betűpáronkénti átlagos információ, az egész hírközlési rendszer
+bizonytalansága – együttes entrópia/
+A forrás átlagos betűnkénti információja – bemeneti entrópia.
+
+9. Ismertesse az információtovábbítás során használt jeleket!
+• karakterkészlet alapján:
+o bináris, {0,1}
+o nem bináris pl. {0, 1, 2}
+• a kódszavak hosszúsága alapján:
+o fix hosszúságú, Pl. {100, 010, 111}
+o változó hosszúságú Pl. {01, 110,1111}
+• alkalmazási cél alapján:
+o aritmetikai (1-es komplemens, offset stb.),
+o pozíció (Pl. Gray kód, Johnson kód)
+o hibajavító (Pl. Hamming kód)
+o stb...
+
+10. Ismertesse az információ funkcionális meghatározását!
+Már az első modulban is szó volt róla, hogy az információ a rendszerek létének – elemek
+közötti kapcsolat – és működésének – irányítás – az alapja. Az informatika által támogatott
+alkalmazási rendszerek a gazdaság és a társadalom működéséhez kötődnek, ezek működését
+hivatottak segíteni. Esetükben közömbös az információ matematikai mértéke, sokkal inkább
+lényeges, hogy a rendszerben és környezetében jelen levő számtalan adat és hír közül melyek
+azok, amelyek az adott rendszer működése és irányítása szempontjából szükséges.
+
+
